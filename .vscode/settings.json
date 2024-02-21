@@ -1,0 +1,15 @@
+{
+    "extensions.ignoreRecommendations": true,
+    "C_Cpp.default.configurationProvider": "particle.particle-vscode-core",
+    "files.associations": {
+        "**/*.html": "html",
+        "**/templates/**/*.html": "django-html",
+        "**/templates/**/*": "django-txt",
+        "**/requirements{/**,*}.{txt,in}": "pip-requirements",
+        "*.ino": "cpp",
+        "cmath": "cpp"
+    },
+    "particle.targetDevice": "TW-4",
+    "particle.firmwareVersion": "5.6.0",
+    "particle.targetPlatform": "argon"
+}
